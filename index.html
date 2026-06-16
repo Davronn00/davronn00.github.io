@@ -6,6 +6,55 @@
     <title>Davronbek Nurmakhatov — Data Analyst & BI</title>
     <meta name="description" content="Davronbek Nurmakhatov — Data Analyst building production dashboards, SQL pipelines, and SAP/Python automations. Currently at ExxonMobil, Budapest." />
     <meta name="theme-color" content="#0b0f14" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Davronbek Nurmakhatov — Data Analyst & BI" />
+    <meta property="og:description" content="Data Analyst building production dashboards, SQL pipelines, and SAP/Python automations. Based in Budapest." />
+    <meta property="og:image" content="https://davronn00.github.io/assets/og-image.png" />
+    <meta property="og:url" content="https://davronn00.github.io" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Davronbek Nurmakhatov — Data Analyst & BI" />
+    <meta name="twitter:description" content="Data Analyst building production dashboards, SQL pipelines, and SAP/Python automations." />
+    <meta name="twitter:image" content="https://davronn00.github.io/assets/og-image.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Davronbek Nurmakhatov",
+      "jobTitle": "Data Analyst",
+      "url": "https://davronn00.github.io",
+      "email": "tugairoq04@gmail.com",
+      "telephone": "+36703185057",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Budapest",
+        "addressCountry": "HU"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/davronn00",
+        "https://github.com/Davronn00",
+        "https://instagram.com/davronn_00",
+        "https://t.me/davronn_00"
+      ],
+      "alumniOf": [
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Óbuda University"
+        },
+        {
+          "@type": "CollegeOrUniversity",
+          "name": "Tashkent State Technical University"
+        }
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -26,6 +75,7 @@
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
           <a href="#credentials">Credentials</a>
+          <a href="#resume">Resume</a>
           <a href="#contact">Contact</a>
         </nav>
         <button class="nav__toggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Open menu">
@@ -38,6 +88,7 @@
         <a href="#projects">Projects</a>
         <a href="#skills">Skills</a>
         <a href="#credentials">Credentials</a>
+        <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
       </div>
     </header>
@@ -185,33 +236,39 @@
 
         <div class="cards">
           <article class="proj">
-            <header>
-              <h3>Buy a Home with Open Data</h3>
-              <span class="proj__tag">Demola · BI Analyst</span>
-            </header>
-            <p>Aggregated 10+ public housing market datasets to identify 3 statistically significant price-influencing factors via regression analysis. Delivered end-to-end Power BI dashboards visualizing affordability across Budapest neighborhoods.</p>
-            <div class="chips">
-              <span>Power BI</span><span>Regression</span><span>Open Data</span><span>ETL</span>
+            <img class="proj__thumb" src="assets/project-home.png" alt="Power BI dashboard showing Budapest housing market data" loading="lazy" decoding="async" />
+            <div class="proj__body">
+              <header>
+                <h3>Buy a Home with Open Data</h3>
+                <span class="proj__tag">Demola · BI Analyst</span>
+              </header>
+              <p>Aggregated 10+ public housing market datasets to identify 3 statistically significant price-influencing factors via regression analysis. Delivered end-to-end Power BI dashboards visualizing affordability across Budapest neighborhoods.</p>
+              <div class="chips">
+                <span>Power BI</span><span>Regression</span><span>Open Data</span><span>ETL</span>
+              </div>
+              <a class="link" href="https://github.com/Davronn00/Demola-project" target="_blank" rel="noopener">
+                View on GitHub
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
             </div>
-            <a class="link" href="https://github.com/Davronn00/Demola-project" target="_blank" rel="noopener">
-              View on GitHub
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
           </article>
 
           <article class="proj">
-            <header>
-              <h3>Synthetic Data Generator for MySQL &amp; MongoDB</h3>
-              <span class="proj__tag">MSc Thesis · In Progress</span>
-            </header>
-            <p>Tool for generating realistic test data across SQL and NoSQL databases. Benchmarks performance, scalability, and integration patterns — designed as a drop-in for QA pipelines and developer environments.</p>
-            <div class="chips">
-              <span>Python</span><span>SQL</span><span>NoSQL</span><span>Benchmarking</span>
+            <img class="proj__thumb" src="assets/project-synth.png" alt="Synthetic data generator tool for MySQL and MongoDB" loading="lazy" decoding="async" />
+            <div class="proj__body">
+              <header>
+                <h3>Synthetic Data Generator for MySQL &amp; MongoDB</h3>
+                <span class="proj__tag">MSc Thesis · Completed</span>
+              </header>
+              <p>Tool for generating realistic test data across SQL and NoSQL databases. Benchmarks performance, scalability, and integration patterns — designed as a drop-in for QA pipelines and developer environments.</p>
+              <div class="chips">
+                <span>Python</span><span>SQL</span><span>NoSQL</span><span>Benchmarking</span>
+              </div>
+              <a class="link" href="https://github.com/Davronn00/synthetic-data-generator-mysql-mongodb" target="_blank" rel="noopener">
+                View on GitHub
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
             </div>
-            <a class="link" href="https://github.com/Davronn00/synthetic-data-generator-mysql-mongodb" target="_blank" rel="noopener">
-              View on GitHub
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            </a>
           </article>
         </div>
       </section>
@@ -226,31 +283,31 @@
           <div class="skills__group">
             <h3>Languages &amp; Tools</h3>
             <ul>
-              <li>Python <small>(Pandas, NumPy)</small></li>
-              <li>SQL</li>
-              <li>VBA</li>
-              <li>DAX</li>
-              <li>Git</li>
+              <li><span>Python <small>(Pandas, NumPy)</small></span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>SQL</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>VBA</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>DAX</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span>Git</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
             </ul>
           </div>
           <div class="skills__group">
             <h3>Data &amp; BI Platforms</h3>
             <ul>
-              <li>Power BI</li>
-              <li>Snowflake</li>
-              <li>SAP</li>
-              <li>Microsoft Excel <small>(advanced)</small></li>
+              <li><span>Power BI</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>Snowflake</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>SAP</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span>Microsoft Excel</span><span class="skill-level skill-level--advanced">Advanced</span></li>
             </ul>
           </div>
           <div class="skills__group">
             <h3>Analytics &amp; Business</h3>
             <ul>
-              <li>Data modeling</li>
-              <li>ETL workflows</li>
-              <li>Regression analysis</li>
-              <li>Dashboarding &amp; KPI reporting</li>
-              <li>BPMN</li>
-              <li>Stakeholder communication</li>
+              <li><span>Data modeling</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>ETL workflows</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>Regression analysis</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span>Dashboarding &amp; KPI reporting</span><span class="skill-level skill-level--advanced">Advanced</span></li>
+              <li><span>BPMN</span><span class="skill-level skill-level--intermediate">Intermediate</span></li>
+              <li><span>Stakeholder communication</span><span class="skill-level skill-level--advanced">Advanced</span></li>
             </ul>
           </div>
         </div>
@@ -304,9 +361,60 @@
         </div>
       </section>
 
+      <!-- Resume Preview -->
+      <section id="resume" class="section reveal">
+        <header class="section__head">
+          <p class="kicker">06 · Resume at a Glance</p>
+          <h2>The highlights, without downloading a PDF.</h2>
+        </header>
+        <div class="resume-preview">
+          <div class="resume-card">
+            <h4>💼 Latest Role</h4>
+            <ul>
+              <li><strong>Data & Process Optimization Analyst</strong></li>
+              <li>ExxonMobil · Budapest</li>
+              <li>Oct 2025 — May 2026</li>
+              <li>Automated SAP workflows, built Power BI dashboards, wrote Snowflake SQL queries</li>
+            </ul>
+          </div>
+          <div class="resume-card">
+            <h4>🎓 Education</h4>
+            <ul>
+              <li><strong>MSc Business Informatics</strong></li>
+              <li>Óbuda University · 2024–2026</li>
+              <li><strong>BSc Surveying Engineering</strong></li>
+              <li>TSTU · 2019–2023</li>
+            </ul>
+          </div>
+          <div class="resume-card">
+            <h4>🛠️ Core Stack</h4>
+            <ul>
+              <li>Python · SQL · VBA · DAX</li>
+              <li>Power BI · Snowflake · SAP</li>
+              <li>Excel (advanced) · Git</li>
+            </ul>
+          </div>
+          <div class="resume-card">
+            <h4>🌍 Languages</h4>
+            <ul>
+              <li><strong>Uzbek</strong> — Native</li>
+              <li><strong>English</strong> — C1 (IELTS)</li>
+              <li><strong>Russian</strong> — B2</li>
+              <li><strong>Hungarian</strong> — A1</li>
+            </ul>
+          </div>
+        </div>
+        <div style="margin-top: 24px;">
+          <a class="btn btn--primary" href="assets/Davronbek_Nurmakhatov_Resume.pdf" download>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Download Full CV
+          </a>
+        </div>
+      </section>
+
       <section id="contact" class="section reveal">
         <header class="section__head">
-          <p class="kicker">06 · Contact</p>
+          <p class="kicker">07 · Contact</p>
           <h2>Let's talk.</h2>
         </header>
 
@@ -351,6 +459,38 @@
               </span>
               <div><strong>Instagram</strong><span>@davronn_00</span></div>
             </a>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact__form">
+            <h3>Or send a message directly</h3>
+            <form id="contactForm" action="https://formspree.io/f/xpwdkpqe" method="POST">
+              <div class="form__grid">
+                <div class="form__group">
+                  <label for="contactName">Name</label>
+                  <input type="text" id="contactName" name="name" placeholder="Your name" required />
+                </div>
+                <div class="form__group">
+                  <label for="contactEmail">Email</label>
+                  <input type="email" id="contactEmail" name="email" placeholder="your@email.com" required />
+                </div>
+                <div class="form__group form__group--full">
+                  <label for="contactSubject">Subject</label>
+                  <input type="text" id="contactSubject" name="subject" placeholder="What's this about?" />
+                </div>
+                <div class="form__group form__group--full">
+                  <label for="contactMessage">Message</label>
+                  <textarea id="contactMessage" name="message" placeholder="Your message…" required></textarea>
+                </div>
+                <div class="form__group form__group--full form__submit">
+                  <button class="btn btn--primary" type="submit">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    Send Message
+                  </button>
+                </div>
+              </div>
+              <div id="formStatus" class="form__status"></div>
+            </form>
           </div>
         </div>
       </section>
