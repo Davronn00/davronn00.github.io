@@ -555,8 +555,8 @@ a { color: inherit; text-decoration: none; }
 .foot { border-top: 1px solid var(--border); margin-top: 40px; }
 .foot__inner {
   max-width: var(--max); margin: 0 auto; padding: 28px var(--pad);
-  display: flex; justify-content: space-between; align-items: center; gap: 16px;
-  color: var(--text-mute); font-size: 14px; flex-wrap: wrap;
+  display: flex; flex-direction: column; align-items: center; gap: 16px;
+  color: var(--text-mute); font-size: 14px;
 }
 .foot__top {
   font-family: var(--font-mono); font-size: 13px; color: var(--text-dim);
